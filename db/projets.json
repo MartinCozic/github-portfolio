@@ -80,5 +80,13 @@
     "image": "P10.png",
     "lien": "https://github.com/pedritolerigolo/D-tection-de-Gestes-et-Expressions-Faciales",
     "lien2": "vues/cam.html"
+  },
+  {
+    "titre": "parcours d'automates",
+    "description": "Ce projet en Kotlin permet de modéliser, de charger et d'exécuter des automates finis pour valider des chaînes de caractères (smileys, heures, adresses emails). Il offre la possibilité de définir les automates soit directement en code, soit via des fichiers de configuration externes.",
+    "technos": ["Kotlin"],
+    "annee": "2026",
+    "image": "P11.jpg",
+    "lien": "https://github.com/pedritolerigolo/automate"
   }
 ]
