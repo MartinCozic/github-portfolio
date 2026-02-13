@@ -277,3 +277,59 @@
 .modal-content.animated-border {
     animation: glowingBorder 2s infinite alternate ease-in-out;
 }
+
+.project-card {
+    opacity: 0;
+}
+
+.project-card:nth-child(-n+8) {
+    opacity: 1 !important;
+}
+
+.project-card.reveal {
+    animation: flashAppear 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.project-card-visible {
+    opacity: 1 !important;
+}
+
+.project-card.exit {
+    animation: flashDisappear 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards;
+}
+
+@keyframes flashAppear {
+    0% { 
+        opacity: 0; 
+        transform: translateY(40px) scale(0.8);
+        filter: brightness(3) drop-shadow(0 0 25px rgba(0, 191, 255, 1));
+    }
+    50% {
+        opacity: 1;
+        filter: brightness(2.5) drop-shadow(0 0 20px rgba(0, 191, 255, 0.8));
+    }
+    70% {
+        filter: brightness(1.3) drop-shadow(0 0 10px rgba(0, 191, 255, 0.4));
+    }
+    100% { 
+        opacity: 1; 
+        transform: translateY(0) scale(1);
+        filter: brightness(1) drop-shadow(0 0 0 transparent);
+    }
+}
+
+@keyframes flashDisappear {
+    0% { 
+        opacity: 1; 
+        transform: translateY(0) scale(1);
+        filter: brightness(1);
+    }
+    30% {
+        filter: brightness(1.8) drop-shadow(0 0 15px rgba(0, 191, 255, 0.7));
+    }
+    100% { 
+        opacity: 0; 
+        transform: translateY(-30px) scale(0.85);
+        filter: brightness(3) drop-shadow(0 0 25px rgba(0, 191, 255, 1));
+    }
+}
