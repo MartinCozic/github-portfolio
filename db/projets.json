@@ -5,7 +5,7 @@
     "technos": ["java"],
     "annee": "2017",
     "image": "P1.jpg",
-    "lien": "https://github.com/pedritolerigolo/minecraft-cheese-mod"
+    "lien": "https://github.com/MartinCozic/minecraft-cheese-mod"
   },
   {
     "titre": "Générateur d'arborscences",
@@ -13,7 +13,7 @@
     "technos": ["Python"],
     "annee": "2025",
     "image": "P2.png",
-    "lien": "https://github.com/pedritolerigolo/generateurMarkdownArborescence"
+    "lien": "https://github.com/MartinCozic/generateurMarkdownArborescence"
   },
   {
     "titre": "Serveur Client",
@@ -21,7 +21,7 @@
     "technos": ["Go"],
     "annee": "2025",
     "image": "P9.png",
-    "lien": "https://github.com/pedritolerigolo/modele-client-serveur"
+    "lien": "https://github.com/MartinCozic/modele-client-serveur"
   },
   {
     "titre": "Candidatures spontanée automatiques",
@@ -29,7 +29,7 @@
     "technos": ["Python", "IA", "API"],
     "annee": "2025",
     "image": "P3.png",
-    "lien": "https://github.com/pedritolerigolo/automailing-to-find-a-stage"
+    "lien": "https://github.com/MartinCozic/automailing-to-find-a-stage"
   },
   {
     "titre": "RounDnPounD",
@@ -37,7 +37,7 @@
     "technos": ["HTML", "CSS", "JavaScript", "PHP"],
     "annee": "2025",
     "image": "P4.png",
-    "lien": "https://github.com/pedritolerigolo/RounDnPounD",
+    "lien": "https://github.com/MartinCozic/RounDnPounD",
     "lien2": "vues/rnp.html"
   },
   {
@@ -46,7 +46,7 @@
     "technos": ["HTML", "CSS", "JavaScript", "API"],
     "annee": "2026",
     "image": "P5.png",
-    "lien": "https://github.com/pedritolerigolo/github-portfolio"
+    "lien": "https://github.com/MartinCozic/github-portfolio"
   },
   {
     "titre": "Récupération de notes IUT",
@@ -54,7 +54,7 @@
     "technos": ["PYTHON","playwright", "API", "CHROMIUM"],
     "annee": "2026",
     "image": "P6.png",
-    "lien": "https://github.com/pedritolerigolo/Notes-Scrapper-IUT"
+    "lien": "https://github.com/MartinCozic/Notes-Scrapper-IUT"
   },
   {
     "titre": "Générateur de QR-code",
@@ -62,7 +62,7 @@
     "technos": ["Go", "HTML", "CSS", "JavaScript"],
     "annee": "2026",
     "image": "P7.png",
-    "lien": "https://github.com/pedritolerigolo/golang-qrcode-generator"
+    "lien": "https://github.com/MartinCozic/golang-qrcode-generator"
   },
   {
     "titre": "Boutons à effets",
@@ -70,7 +70,7 @@
     "technos": ["HTML", "CSS", "JavaScript"],
     "annee": "2026",
     "image": "P8.png",
-    "lien": "https://github.com/pedritolerigolo/magic-button"
+    "lien": "https://github.com/MartinCozic/magic-button"
   },
   {
     "titre": "filtre pour camera",
@@ -78,7 +78,7 @@
     "technos": ["PYTHON", "MediaPipe", "OpenCV"],
     "annee": "2026",
     "image": "P10.png",
-    "lien": "https://github.com/pedritolerigolo/D-tection-de-Gestes-et-Expressions-Faciales",
+    "lien": "https://github.com/MartinCozic/D-tection-de-Gestes-et-Expressions-Faciales",
     "lien2": "vues/cam.html"
   },
   {
@@ -87,6 +87,15 @@
     "technos": ["Kotlin"],
     "annee": "2026",
     "image": "P11.jpg",
-    "lien": "https://github.com/pedritolerigolo/automate"
+    "lien": "https://github.com/MartinCozic/automate"
+  },
+  {
+    "titre": "Implémentation d'une maquette",
+    "description": "Implémentation d'une maquette de site web en HTML, CSS et JavaScript. Le projet consiste à recréer fidèlement une maquette fournie, en utilisant les technologies web pour structurer le contenu, styliser l'apparence et ajouter des interactions dynamiques.",
+    "technos": ["HTML", "CSS", "JavaScript"],
+    "annee": "2026",
+    "image": "P12.jpg",
+    "lien": "https://github.com/MartinCozic/ImplementationMaquette",
+    "lien2": "https://martincozic.github.io/ImplementationMaquette/"
   }
 ]
