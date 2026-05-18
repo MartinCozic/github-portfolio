@@ -41,6 +41,7 @@
 
 .email-link i {
     color: var(--hex-gold);
+    margin-top: 3px;
 }
 
 .email-link a:hover {

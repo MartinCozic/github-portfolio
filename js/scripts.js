@@ -101,7 +101,8 @@ function openModal(index) {
     if (p.lien2) {
         const btn2 = document.createElement('a');
         btn2.href = p.lien2;
-        btn2.target = "_self";
+        btn2.target = "_blank";
+        btn2.rel = "noopener noreferrer";
         btn2.className = "button is-primary is-tiny";
         btn2.style.textDecoration = "none";
         btn2.innerText = "EN VOIR PLUS...";

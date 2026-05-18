@@ -70,7 +70,8 @@
     "technos": ["HTML", "CSS", "JavaScript"],
     "annee": "2026",
     "image": "P8.png",
-    "lien": "https://github.com/MartinCozic/magic-button"
+    "lien": "https://github.com/MartinCozic/magic-button",
+    "lien2": "https://martincozic.github.io/magic-button/"
   },
   {
     "titre": "filtre pour camera",

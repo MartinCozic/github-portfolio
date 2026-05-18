@@ -1,13 +1,13 @@
 async function chargerStatsPromo() {
-    try {
-        const response = await fetch('db/stats.json');
-        const data = await response.json();
+  try {
+    const response = await fetch("db/stats.json");
+    const data = await response.json();
 
-        const positionRelative = (data.rang / data.total_promo) * 100;
+    const positionRelative = (data.rang / data.total_promo) * 100;
 
-        const statsContainer = document.querySelector('.hero-stats');
+    const statsContainer = document.querySelector(".hero-stats");
 
-        const rankHTML = `
+    const rankHTML = `
             <div class="stats-details">
                 <div class="stat-item">
                     <span class="hc-text-gold stat-label">POSITION :</span> 
@@ -23,10 +23,10 @@ async function chargerStatsPromo() {
             </div>
         `;
 
-        statsContainer.innerHTML = rankHTML;
-    } catch (error) {
-        console.error("Erreur lors de la récupération des stats", error);
-    }
+    statsContainer.innerHTML = rankHTML;
+  } catch (error) {
+    console.error("Erreur lors de la récupération des stats", error);
+  }
 }
 
 chargerStatsPromo();
